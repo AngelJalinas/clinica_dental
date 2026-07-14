@@ -1,5 +1,7 @@
 // Ruta base del proyecto
-const BASE = "/clinica_dental";
+const BASE = window.location.hostname === "localhost"
+    ? "/clinica_dental"
+    : "/clinica-dental";
 
 function loadComponent(elementId, filePath, callback = null) {
     fetch(filePath)
