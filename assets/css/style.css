@@ -1,0 +1,107 @@
+ :root {
+            --primary: #0d6efd;
+            --secondary: #198754;
+            --light-bg: #f8f9fa;
+        }
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        main {
+            flex: 1;
+        }
+        .btn-primary-custom {
+            background-color: var(--secondary);
+            color: #fff;
+            border: none;
+        }
+        .btn-primary-custom:hover {
+            background-color: #146c43;
+            color: #fff;
+        }
+        .hero {
+            background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+            padding: 80px 0;
+        }
+        .card-service {
+            transition: transform 0.3s;
+        }
+        .card-service:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .testimonial-card {
+            background: #fff;
+            border-left: 5px solid var(--secondary);
+        }
+        footer {
+            background: #0d6efd;
+            color: #fff;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: #25d366;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            z-index: 9999;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .whatsapp-float:hover {
+            color: #fff;
+            transform: scale(1.08);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+        }
+
+        @media (max-width: 576px) {
+            .whatsapp-float {
+                width: 55px;
+                height: 55px;
+                right: 15px;
+                bottom: 15px;
+                font-size: 26px;
+            }
+        }
+
+          .hover-text-primary:hover {
+        color: #0d6efd !important;
+    }
+    .hover-text-info:hover {
+        color: #0dcaf0 !important;
+    }
+    .hover-opacity-100:hover {
+        opacity: 1 !important;
+    }
+    .opacity-75 {
+        opacity: 0.75;
+    }
+
+    @media (min-width: 992px){
+
+    .navbar .dropdown:hover .dropdown-menu{
+
+        display:block;
+        margin-top:0;
+
+    }
+
+}
