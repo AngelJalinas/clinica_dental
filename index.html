@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Cargar Google Fonts (Outfit para títulos y Inter para lectura cómoda) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -45,31 +50,64 @@
     <div class="container">
         <div class="row align-items-center g-4">
             <!-- Columna izquierda: Descripción -->
-            <div class="col-md-6">
-                <h2 class="text-primary mb-3">Altamente capacitados</h2>
-                <p style="text-align: justify;">
-                    En nuestra <strong>Clínica Dental</strong>, contamos con un equipo de 
-                    <strong>técnicos dentales altamente capacitados</strong> y con amplia experiencia 
-                    en el campo de la odontología, especializados en la elaboración de 
-                    <strong>placas y parciales</strong> de alta precisión.
-                </p>
-                <p style="text-align: justify;">
-                    Nuestros técnicos están dedicados a proporcionar una amplia gama de servicios de alta calidad 
-                    que se adaptan a las necesidades específicas de nuestros clientes. Desde la elaboración de 
-                    placas y parciales hasta la reparación de ellas, nuestro equipo utiliza 
-                    <strong>técnicas y materiales de última generación</strong> para garantizar un resultado óptimo 
-                    en cada trabajo.
-                </p>
-                <p style="text-align: justify;">
-                    Además, nuestros técnicos también realizan trabajos de <strong>diseño y fabricación de placas y 
-                    parciales personalizadas</strong>, incluyendo:
-                </p>
-                <ul>
-                    <li>Guarda Oclusal (férulas para bruxismo)</li>
-                    <li>Retenedores</li>
-                    <li>Coronas y dentaduras en oro</li>
-                </ul>
+            <div class="col-lg-6 my-auto">
+    <!-- Subtítulo pequeño decorativo -->
+    <span class="text-uppercase tracking-wider text-muted small fw-bold d-block mb-2" style="letter-spacing: 1.5px;">
+        Garantía y Profesionalismo
+    </span>
+    <h2 class="display-6 fw-bold text-primary mb-4">Altamente capacitados</h2>
+    
+    <!-- Párrafo introductorio con clase "lead" para destacar -->
+    <p class="lead text-secondary mb-3">
+        En nuestra <strong>Clínica Dental</strong>, contamos con un equipo de técnicos dentales altamente capacitados y con amplia experiencia en la elaboración de prótesis de alta precisión.
+    </p>
+    
+    <p class="text-muted mb-4">
+        Utilizamos técnicas y materiales de última generación para garantizar un resultado óptimo, adaptándonos a las necesidades específicas de cada paciente, desde confecciones complejas hasta reparaciones inmediatas.
+    </p>
+
+    <!-- Lista transformada en mini-tarjetas elegantes -->
+    <div class="row g-3">
+        <!-- Item 1 -->
+        <div class="col-md-12">
+            <div class="d-flex align-items-center p-3 bg-light rounded-3 border-start border-primary border-4 shadow-sm">
+                <div class="bg-primary bg-opacity-10 p-2 rounded-circle me-3 text-primary">
+                    <i class="fas fa-shield-alt fa-fw"></i>
+                </div>
+                <div>
+                    <span class="fw-semibold text-dark d-block">Guarda Oclusal</span>
+                    <small class="text-muted">Férulas personalizadas para combatir el bruxismo</small>
+                </div>
             </div>
+        </div>
+        
+        <!-- Item 2 -->
+        <div class="col-md-12">
+            <div class="d-flex align-items-center p-3 bg-light rounded-3 border-start border-primary border-4 shadow-sm">
+                <div class="bg-primary bg-opacity-10 p-2 rounded-circle me-3 text-primary">
+                    <i class="fas fa-tooth fa-fw"></i>
+                </div>
+                <div>
+                    <span class="fw-semibold text-dark d-block">Retenedores</span>
+                    <small class="text-muted">Aparatos de ortodoncia estables y cómodos</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="col-md-12">
+            <div class="d-flex align-items-center p-3 bg-light rounded-3 border-start border-primary border-4 shadow-sm">
+                <div class="bg-primary bg-opacity-10 p-2 rounded-circle me-3 text-primary">
+                    <i class="fas fa-crown fa-fw text-warning"></i>
+                </div>
+                <div>
+                    <span class="fw-semibold text-dark d-block">Coronas y dentaduras en oro</span>
+                    <small class="text-muted">Trabajos estéticos con metales de alta pureza</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
             <!-- Columna derecha: Imagen -->
             <div class="col-md-6 text-center">
@@ -183,63 +221,75 @@
 
 
 
-    <!-- ===== CONTACTO Y CITAS ===== -->
-    <section id="contacto" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Contáctanos</h2>
-                    <p>Completa el formulario o llámanos para agendar tu cita.</p>
+  <!-- ===== CONTACTO RÁPIDO EN EL INDEX ===== -->
+<section id="contacto" class="py-5 bg-primary text-white position-relative overflow-hidden">
+    <!-- Fondo decorativo sutil (opcional) -->
+    <div class="position-absolute top-0 start-0 w-100 h-100 opacity-10" style="background-image: radial-gradient(circle, #fff 10%, transparent 11%); background-size: 20px 20px;"></div>
+    
+    <div class="container py-4 position-relative z-index-1">
+        <div class="row align-items-center g-5">
+            <!-- Texto persuasivo -->
+            <div class="col-lg-6">
+                <span class="badge bg-white text-primary mb-3 px-3 py-2 fw-bold text-uppercase">Agenda hoy</span>
+                <h2 class="display-5 fw-bold mb-3">¿Listo para lucir tu mejor sonrisa?</h2>
+                <p class="lead opacity-90 mb-4">Agenda una cita de valoración rápida en pocos pasos o escríbenos directamente para resolver cualquier duda.</p>
+                
+                <div class="d-flex flex-column gap-3 mb-4">
+                    <div class="d-flex align-items-center">
+                        <div class="bg-white bg-opacity-20 p-3 rounded-circle me-3">
+                            <i class="fas fa-phone-alt fs-5 text-white"></i>
+                        </div>
+                        <div>
+                            <span class="d-block small text-white-50">Llámanos directamente</span>
+                            <strong class="fs-5">+505 1234-5678</strong>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="bg-white bg-opacity-20 p-3 rounded-circle me-3">
+                            <i class="fab fa-whatsapp fs-5 text-white"></i>
+                        </div>
+                        <div>
+                            <span class="d-block small text-white-50">Atención inmediata por WhatsApp</span>
+                            <a href="https://wa.me/50512345678" target="_blank" class="text-white fw-bold fs-5 text-decoration-none">Chatear con un especialista <i class="fas fa-external-link-alt ms-1 fs-6"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulario Ultra Rápido (Solo conversión directa) -->
+            <div class="col-lg-6">
+                <div class="card border-0 shadow-lg text-dark p-4 p-md-5">
+                    <h3 class="fw-bold mb-2">Solicita una Cita</h3>
+                    <p class="text-muted small mb-4">Completa estos 3 datos y te llamaremos en menos de 15 minutos para confirmar tu horario.</p>
+                    
                     <form>
                         <div class="mb-3">
-                            <label for="nombre" class="form-label">Nombre completo</label>
-                            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" />
+                            <label for="nombreIndex" class="form-label fw-semibold">Nombre completo</label>
+                            <input type="text" class="form-control form-control-lg" id="nombreIndex" placeholder="Ej. Juan Pérez" required />
                         </div>
                         <div class="mb-3">
-                            <label for="email" class="form-label">Correo electrónico</label>
-                            <input type="email" class="form-control" id="email" placeholder="tu@email.com" />
+                            <label for="telefonoIndex" class="form-label fw-semibold">Número de Teléfono</label>
+                            <input type="tel" class="form-control form-control-lg" id="telefonoIndex" placeholder="Ej. 8888-8888" required />
                         </div>
-                        <div class="mb-3">
-                            <label for="telefono" class="form-label">Teléfono</label>
-                            <input type="tel" class="form-control" id="telefono" placeholder="+34 600 000 000" />
-                        </div>
-                        <div class="mb-3">
-                            <label for="servicio" class="form-label">Servicio de interés</label>
-                            <select class="form-select" id="servicio">
-                                <option>Limpieza dental</option>
+                        <div class="mb-4">
+                            <label for="servicioIndex" class="form-label fw-semibold">¿Qué necesitas?</label>
+                            <select class="form-select form-select-lg" id="servicioIndex">
+                                <option selected>Primera Valoración (Gratis)</option>
+                                <option>Limpieza Dental</option>
+                                <option>Ortodoncia / Brackets</option>
                                 <option>Blanqueamiento</option>
-                                <option>Ortodoncia</option>
-                                <option>Implantes</option>
-                                <option>Otro</option>
+                                <option>Otro servicio</option>
                             </select>
                         </div>
-                        <div class="mb-3">
-                            <label for="mensaje" class="form-label">Mensaje</label>
-                            <textarea class="form-control" id="mensaje" rows="3" placeholder="Cuéntanos tu consulta..."></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary-custom">Enviar mensaje</button>
+                        <button type="submit" class="btn btn-primary btn-lg w-100 fw-bold shadow-sm">
+                            <i class="fas fa-calendar-check me-2"></i>Agendar mi Valoración
+                        </button>
                     </form>
-                </div>
-                <div class="col-md-6">
-                    <h4>Información de contacto</h4>
-                    <p><i class="fas fa-map-marker-alt text-primary me-2"></i> Avenida Real Monimbo</p>
-                    <p><i class="fas fa-phone text-primary me-2"></i> +505 1234-5678</p>
-                    <p><i class="fas fa-envelope text-primary me-2"></i> nombre@gmail.com</p>
-                    <p><i class="fas fa-clock text-primary me-2"></i> Lun-Vie: 9:00am - 12:00md / 2:00pm - 4:00pm</p>
-                    <p><i class="fas fa-clock text-primary me-2"></i>Sábado: 9:00am - 12:00md</p>
-
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3866.456789!2d-86.0940807!3d11.9674474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f74061d793049f9%3A0xfe5d6427e24a4baa!2sThe%20Tiangue%20Of%20Monimbo!5e0!3m2!1ses!2sni!4v1690000000000" 
-                        width="100%" 
-                        height="250" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy">
-                    </iframe>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
     <!-- ===== FOOTER ===== -->
     <div id="footer"></div>
 
