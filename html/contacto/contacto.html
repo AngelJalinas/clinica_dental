@@ -25,11 +25,24 @@
 
 <main>
     <!-- Hero -->
-    <section class="py-5 bg-light">
-        <div class="container py-lg-5">
+    <section class="hero text-center position-relative" style="
+    background-image: url('../../assets/img/banner.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 140px 0;
+    min-height: 500px;">
+
+    <!-- Overlay oscuro para que el texto se vea mejor -->
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="
+        background: rgba(0, 0, 0, 0.5); 
+        z-index: 1;
+    "></div>
+
+        <div class="container position-relative" style="z-index: 2;">
             <div class="col-lg-6">
-                    <h1 class="display-3 fw-bold text-primary">Contáctanos</h1>
-                    <p class="lead text-muted">Estamos aquí para ayudarte. Escríbenos o visítanos.</p>
+                    <h1 class="display-3 fw-bold text-white">Contáctanos</h1>
+                    <p class="lead text-white">Estamos aquí para ayudarte. Escríbenos o visítanos.</p>
             </div>
         </div>
     </section>
